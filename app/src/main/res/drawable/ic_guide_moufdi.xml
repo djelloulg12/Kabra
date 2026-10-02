@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Patriotic Emerald & Gold Gradient -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#00695C" android:offset="0.0" />
+                <item android:color="#1B5E20" android:offset="0.5" />
+                <item android:color="#BF360C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Open Book / Parchment of the Anthem 'Qassaman' -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M70,70 Q140,50 200,65 Q260,50 330,70 L330,175 Q260,155 200,170 Q140,155 70,175 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M198,65 L202,65 L202,170 L198,170 Z" />
+
+    <!-- Poetic script lines -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M95,85h80v3h-80z M90,100h90v3h-90z M95,115h80v3h-80z M90,130h90v3h-90z M100,145h70v3h-70z M225,85h80v3h-80z M220,100h90v3h-90z M225,115h80v3h-80z M220,130h90v3h-90z M230,145h70v3h-70z" />
+
+    <!-- Quill Pen / Feather of the Revolutionary Poet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M270,35 C285,55 280,85 240,120 C245,100 255,80 250,55 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M238,120 L233,130 L242,126 Z" />
+
+    <!-- Red Star and Crescent of Freedom (رمز التحرر والسيادة) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M200,15 C190,15 182,23 182,33 C182,43 190,51 200,51 C194,47 190,41 190,33 C190,25 194,19 200,15 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M205,25 L206,29 L210,29 L207,31 L208,35 L205,33 L202,35 L203,31 L200,29 L204,29 Z" />
+
+    <!-- Memorial Platform Base -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M40,195h320v35h-320z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M50,190h300v5h-300z" />
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="40dp"
+    android:viewportWidth="60"
+    android:viewportHeight="40">
+    <!-- Top Band: Orange -->
+    <path
+        android:fillColor="#E05206"
+        android:pathData="M0,0h60v13.33h-60z" />
+    <!-- Middle Band: White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,13.33h60v13.34h-60z" />
+    <!-- Bottom Band: Green -->
+    <path
+        android:fillColor="#0DB02B"
+        android:pathData="M0,26.67h60v13.33h-60z" />
+    <!-- Center Orange Sun / Roundel -->
+    <path
+        android:fillColor="#E05206"
+        android:pathData="M30,15 A5,5 0 1,0 30,25 A5,5 0 1,0 30,15 Z" />
+</vector>

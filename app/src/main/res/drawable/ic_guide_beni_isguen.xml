@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Sunset desert sky -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#E65100" android:offset="0.0" />
+                <item android:color="#F57C00" android:offset="0.4" />
+                <item android:color="#FFB74D" android:offset="0.8" />
+                <item android:color="#FFE0B2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Warm Sun -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:pathData="M120,60 A24,24 0 1,0 120,108 A24,24 0 1,0 120,60 Z" />
+
+    <!-- Hill of Beni Isguen -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M30,240 L160,100 L260,100 L380,240 Z" />
+
+    <!-- Historic Boulila Watchtower (برج بوليلة) -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M200,60 L220,60 L225,120 L195,120 Z" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M197,55h26v8h-26z" />
+    <!-- Tower battlements -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M197,50h6v6h-6z M207,50h6v6h-6z M217,50h6v6h-6z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M207,75h6v8h-6z M207,95h6v8h-6z" />
+
+    <!-- Fortified Stone Wall surrounding the city (السور الحصين) -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M50,190 Q200,165 350,190 L370,240 L30,240 Z" />
+    <!-- Wall crenels / battlements -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M60,185h10v8h-10z M85,183h10v8h-10z M110,181h10v8h-10z M135,179h10v8h-10z M160,177h10v8h-10z M185,176h10v8h-10z M210,176h10v8h-10z M235,177h10v8h-10z M260,179h10v8h-10z M285,181h10v8h-10z M310,183h10v8h-10z M335,185h10v8h-10z" />
+
+    <!-- City Gate (باب القصر) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M195,210 C195,195 225,195 225,210 L225,240 L195,240 Z" />
+</vector>

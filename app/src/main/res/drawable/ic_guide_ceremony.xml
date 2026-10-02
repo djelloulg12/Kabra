@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Diplomatic & Official Emerald / Navy background -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#004D40" android:offset="0.0" />
+                <item android:color="#0D47A1" android:offset="0.5" />
+                <item android:color="#1A237E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Certificate / Diploma parchment -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:pathData="M110,60 L290,60 L290,190 L110,190 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M120,70 L280,70 L280,180 L120,180 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFB300" />
+
+    <!-- Diploma lines -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M140,90h120v4h-120z M150,105h100v3h-100z M135,120h130v3h-130z M145,135h110v3h-110z" />
+
+    <!-- Golden Wax Seal & Ribbon -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M190,165 L180,195 L200,185 L220,195 L210,165 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M200,150 A16,16 0 1,0 200,182 A16,16 0 1,0 200,150 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M200,155 A11,11 0 1,0 200,177 A11,11 0 1,0 200,155 Z" />
+
+    <!-- Laurel wreath of honor -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M190,50 C160,35 130,55 135,80 C140,65 160,50 185,55 Z M210,50 C240,35 270,55 265,80 C260,65 240,50 215,55 Z" />
+</vector>

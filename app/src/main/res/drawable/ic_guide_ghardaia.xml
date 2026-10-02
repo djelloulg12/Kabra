@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Sky gradient at dusk -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#FFE0B2" android:offset="0.0" />
+                <item android:color="#FFCC80" android:offset="0.4" />
+                <item android:color="#FFA726" android:offset="0.7" />
+                <item android:color="#FB8C00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M200,80 A36,36 0 1,0 200,152 A36,36 0 1,0 200,80 Z" />
+
+    <!-- Distant hills of M'Zab valley -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M0,170 Q100,140 200,165 T400,160 L400,240 L0,240 Z" />
+
+    <!-- Ksar pyramid hill architecture -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M60,240 L160,110 L240,110 L340,240 Z" />
+
+    <!-- Iconic Ghardaia Minaret -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M185,50 L215,50 L220,130 L180,130 Z" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M192,30 L208,30 L206,50 L194,50 Z" />
+    <!-- Minaret Pinnacle finger -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M198,16 L202,16 L201,30 L199,30 Z" />
+
+    <!-- Minaret windows and stairs -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M195,65h10v12h-10z M195,90h10v12h-10z M195,115h10v12h-10z" />
+
+    <!-- Clustered clay houses / Ksar terraced structures -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M90,200h35v40h-35z M135,185h40v55h-40z M185,175h45v65h-45z M240,185h38v55h-38z M288,200h35v40h-35z M110,160h30v30h-30z M250,155h35v35h-35z" />
+
+    <!-- Little windows -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M98,210h6v8h-6z M148,198h7v10h-7z M198,188h8v10h-8z M252,198h7v10h-7z M300,210h6v8h-6z" />
+
+    <!-- Palm Trees along the base -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M40,205 C25,190 20,180 35,175 C45,185 45,195 40,205 Z M42,205 C55,190 60,180 48,175 C38,185 40,195 42,205 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M39,205 L41,205 L41,240 L39,240 Z" />
+
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M360,205 C345,190 340,180 355,175 C365,185 365,195 360,205 Z M362,205 C375,190 380,180 368,175 C358,185 360,195 362,205 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M359,205 L361,205 L361,240 L359,240 Z" />
+</vector>

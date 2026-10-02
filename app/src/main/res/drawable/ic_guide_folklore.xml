@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Festive Evening Background -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#1A237E" android:offset="0.0" />
+                <item android:color="#4A148C" android:offset="0.6" />
+                <item android:color="#880E4F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Traditional Bendir Frame Drum -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M140,70 A50,50 0 1,0 140,170 A50,50 0 1,0 140,70 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M140,76 A44,44 0 1,0 140,164 A44,44 0 1,0 140,76 Z" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M136,80 L144,80 L144,160 L136,160 Z" />
+
+    <!-- Traditional Karkabou iron castanets (Gnawa / Diwan) -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M270,70 C250,70 240,90 250,110 C260,130 280,130 290,110 C300,90 290,70 270,70 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M270,120 C250,120 240,140 250,160 C260,180 280,180 290,160 C300,140 290,120 270,120 Z" />
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M266,105 L274,105 L274,130 L266,130 Z" />
+
+    <!-- Musical notes and rhythm sparkles -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M200,45 A6,6 0 1,0 200,57 A6,6 0 1,0 200,45 Z" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M204,45 L204,25 L220,20 L220,35"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFEB3B" />
+
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M80,50 L84,62 L96,62 L86,70 L90,82 L80,74 L70,82 L74,70 L64,62 L76,62 Z" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M330,60 L333,69 L342,69 L335,75 L338,84 L330,78 L322,84 L325,75 L318,69 L327,69 Z" />
+
+    <!-- Traditional stage podium silhouette -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M0,190 Q200,175 400,190 L400,240 L0,240 Z" />
+</vector>

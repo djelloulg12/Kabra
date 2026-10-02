@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="40dp"
+    android:viewportWidth="60"
+    android:viewportHeight="40">
+    <!-- Background: Left Green, Right White -->
+    <!-- Left Green Half -->
+    <path
+        android:fillColor="#006233"
+        android:pathData="M0,0h30v40h-30z" />
+    <!-- Right White Half -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,0h30v40h-30z" />
+
+    <!-- Center Crescent and Star in Red (#D21034) -->
+    <!-- Outer Crescent Circle -->
+    <path
+        android:fillColor="#D21034"
+        android:pathData="M30,8 A12,12 0 1,0 30,32 A12,12 0 1,0 30,8 Z" />
+    <!-- Inner Cutout Circle (Left green, right white mask) -->
+    <!-- Green inner cutout -->
+    <path
+        android:fillColor="#006233"
+        android:pathData="M33,10.5 A9.5,9.5 0 1,0 30,29.5 L30,10.5 Z" />
+    <!-- White inner cutout -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,10.5 L30,29.5 A9.5,9.5 0 0,0 33,10.5 Z" />
+
+    <!-- Center Red 5-Pointed Star -->
+    <path
+        android:fillColor="#D21034"
+        android:pathData="M33,14 L34.5,18.5 L39,18.5 L35.5,21.2 L36.8,25.5 L33,22.8 L29.2,25.5 L30.5,21.2 L27,18.5 L31.5,18.5 Z" />
+</vector>

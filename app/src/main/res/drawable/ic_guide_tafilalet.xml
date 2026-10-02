@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Eco Sunny Sky -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#00695C" android:offset="0.0" />
+                <item android:color="#2E7D32" android:offset="0.5" />
+                <item android:color="#E8F5E9" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Radiant Eco Sun -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M310,45 A25,25 0 1,0 310,95 A25,25 0 1,0 310,45 Z" />
+
+    <!-- Rocky Plateau of Tafilalet -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M0,150 Q120,125 240,145 T400,135 L400,240 L0,240 Z" />
+
+    <!-- Traditional Stone Ecological Dwellings -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M40,165h45v45h-45z M95,155h55v55h-55z M160,145h60v65h-60z M230,150h50v60h-50z M290,160h45v50h-45z" />
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M52,175h10v12h-10z M112,168h12v14h-12z M180,160h14v16h-14z M248,165h12v14h-12z" />
+
+    <!-- Modern Rooftop Solar PV Panels (Blue Energy Grid) -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M98,143 L148,143 L143,153 L93,153 Z M163,133 L215,133 L210,143 L158,143 Z M233,138 L277,138 L273,148 L229,148 Z" />
+    <path
+        android:fillColor="#01579B"
+        android:pathData="M110,143 L108,153 M123,143 L121,153 M136,143 L134,153 M175,133 L173,143 M190,133 L188,143 M203,133 L201,143"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Green Permaculture Palm Garden & Recycling Park -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M20,195 C5,175 0,165 15,160 C25,170 25,185 20,195 Z M22,195 C35,175 40,165 28,160 C18,170 20,185 22,195 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M350,190 C335,170 330,160 345,155 C355,165 355,180 350,190 Z M352,190 C365,170 370,160 358,155 C348,165 350,180 352,190 Z" />
+
+    <!-- Eco City Base -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M0,210h400v30h-400z" />
+    <!-- Green eco pathway strip -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M0,225h400v6h-400z" />
+</vector>

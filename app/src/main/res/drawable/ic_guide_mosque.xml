@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Spiritual Morning Sky -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#004D40" android:offset="0.0" />
+                <item android:color="#00796B" android:offset="0.4" />
+                <item android:color="#E0F2F1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crescent Moon & Star -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M190,25 C175,25 165,37 165,52 C165,67 177,79 192,79 C182,74 176,64 176,52 C176,40 182,30 190,25 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M195,40 L197,45 L202,45 L198,48 L200,53 L195,50 L191,53 L193,48 L189,45 L194,45 Z" />
+
+    <!-- Mosque Dome -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,150 C140,95 260,95 260,150 Z" />
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M140,150h120v60h-120z" />
+    <!-- Mosque Arched Door -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M185,210 L185,175 C185,165 215,165 215,175 L215,210 Z" />
+
+    <!-- Left Minaret -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M110,80 L130,80 L130,210 L110,210 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M106,78h28v6h-28z M108,60 L120,40 L132,60 Z" />
+
+    <!-- Right Minaret -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M270,80 L290,80 L290,210 L270,210 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M266,78h28v6h-28z M268,60 L280,40 L292,60 Z" />
+
+    <!-- Mosque courtyard ground -->
+    <path
+        android:fillColor="#B2DFDB"
+        android:pathData="M0,210h400v30h-400z" />
+</vector>

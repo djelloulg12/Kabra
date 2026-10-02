@@ -1,0 +1,6 @@
+{
+  "name": "دليل غرداية الثقافي",
+  "description": "دليل البرنامج الثقافي والسياحي لوفد النيجر بغرداية 2026 مع جدول تفصيلي للأيام والفقرات وشريك محادثة تفاعلي ذكي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

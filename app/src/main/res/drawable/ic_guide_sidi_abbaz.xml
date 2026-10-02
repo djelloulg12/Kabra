@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Twilight Valley Gradient -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#3F51B5" android:offset="0.0" />
+                <item android:color="#7E57C2" android:offset="0.5" />
+                <item android:color="#FF7043" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Crescent & Stars in Saharan evening sky -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M70,30 C58,30 50,40 50,52 C50,64 60,74 72,74 C64,70 60,62 60,52 C60,42 65,34 70,30 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,40 A3,3 0 1,0 110,46 A3,3 0 1,0 110,40 Z M280,30 A2.5,2.5 0 1,0 280,35 A2.5,2.5 0 1,0 280,30 Z M330,55 A2,2 0 1,0 330,59 A2,2 0 1,0 330,55 Z" />
+
+    <!-- High Ridge of Sidi Abbaz Lookout -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M0,170 Q150,130 300,165 T400,150 L400,240 L0,240 Z" />
+
+    <!-- Monumental Sidi Abbaz Arch / Landmark structure -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M165,110 L235,110 L240,180 L160,180 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M160,110 C160,80 240,80 240,110 Z" />
+    <!-- Arch opening with view to valley below -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M180,180 L180,130 C180,120 220,120 220,130 L220,180 Z" />
+
+    <!-- Panoramic Viewpoint Railing & Promenade (ساحة الوئام) -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M100,180h200v8h-200z" />
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M110,188h6v22h-6z M140,188h6v22h-6z M170,188h6v22h-6z M200,188h6v22h-6z M230,188h6v22h-6z M260,188h6v22h-6z M290,188h6v22h-6z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M90,210h220v30h-220z" />
+
+    <!-- Distant twinkling city lights of the valley below -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M30,160h4v4h-4z M55,163h3v3h-3z M80,155h4v4h-4z M330,158h4v4h-4z M360,162h3v3h-3z" />
+</vector>

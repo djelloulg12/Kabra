@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Bright Saharan Travel Sky -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#0288D1" android:offset="0.0" />
+                <item android:color="#4FC3F7" android:offset="0.5" />
+                <item android:color="#FFE0B2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Aircraft in Flight (Arrival / Departure) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,65 L240,55 L260,60 L200,80 L250,90 L245,95 L190,82 L150,90 L135,88 L155,75 L140,70 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M230,57h15v3h-15z" />
+
+    <!-- Airport Control Tower (برج المراقبة) -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M80,90 L100,90 L95,170 L85,170 Z" />
+    <path
+        android:fillColor="#0277BD"
+        android:pathData="M75,80h30v14h-30z" />
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M78,83h24v8h-24z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M88,72h4v8h-4z" />
+
+    <!-- Terminal Building (محطة الركاب والبهو الشرفي) -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M110,135h180v35h-180z" />
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M110,130h180v6h-180z" />
+    <!-- Glass facade windows -->
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M120,142h20v22h-20z M150,142h20v22h-20z M180,142h20v22h-20z M210,142h20v22h-20z M240,142h20v22h-20z M270,142h15v22h-15z" />
+
+    <!-- Tarmac & Runway (مدرج المطار) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M0,170h400v70h-400z" />
+    <!-- Yellow centerline marking -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M20,205h40v4h-40z M90,205h40v4h-40z M160,205h40v4h-40z M230,205h40v4h-40z M300,205h40v4h-40z M370,205h20v4h-20z" />
+</vector>

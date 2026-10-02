@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Golden sun / glow -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,28 A12,12 0 1,0 54,52 A12,12 0 1,0 54,28 Z" />
+
+    <!-- Open book / guide symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64 C46,60 36,60 28,62 L28,82 C36,80 46,80 54,84 C62,80 72,80 80,82 L80,62 C72,60 62,60 54,64 Z" />
+
+    <!-- Ghardaia architectural minaret pinnacle -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M51,20 L57,20 L56,48 L52,48 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M48,32 L60,32 L58,48 L50,48 Z" />
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M45,46 L63,46 L60,66 L48,66 Z" />
+    <!-- Minaret windows -->
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M52,36 L56,36 L56,42 L52,42 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M52,50 L56,50 L56,58 L52,58 Z" />
+
+    <!-- Small chat bubble / dialogue indicator -->
+    <path
+        android:fillColor="#4DD0E1"
+        android:pathData="M66,32 C66,28 72,28 75,30 C78,32 78,37 75,39 L76,43 L72,41 C68,41 66,37 66,32 Z" />
+</vector>

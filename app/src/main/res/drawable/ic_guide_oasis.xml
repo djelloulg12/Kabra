@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Sunny Oasis Sky -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#80D8FF" android:offset="0.0" />
+                <item android:color="#FFF9C4" android:offset="0.6" />
+                <item android:color="#FFE082" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M320,50 A25,25 0 1,0 320,100 A25,25 0 1,0 320,50 Z" />
+
+    <!-- Distant Dunes -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M0,150 Q100,120 250,150 T400,130 L400,240 L0,240 Z" />
+
+    <!-- Lush Oasis Palm Grove (Sebseb & Hadar) -->
+    <!-- Left Palm -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M80,140 C50,100 20,110 30,90 C60,95 80,120 80,140 Z M80,140 C100,90 120,90 130,100 C110,115 95,130 80,140 Z M80,140 C80,80 90,70 100,75 C95,95 90,120 80,140 Z M80,140 C60,85 50,75 40,85 C55,100 70,120 80,140 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M78,135 Q74,180 70,220 L84,220 Q82,180 82,135 Z" />
+
+    <!-- Center Palm -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M200,120 C160,80 130,90 140,70 C175,75 195,100 200,120 Z M200,120 C230,70 255,75 265,85 C240,100 220,110 200,120 Z M200,120 C200,60 210,50 220,55 C215,75 210,100 200,120 Z M200,120 C180,65 170,55 160,65 C175,80 190,100 200,120 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M198,115 L195,210 L207,210 L204,115 Z" />
+
+    <!-- Right Palm -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M300,140 C270,100 240,110 250,90 C280,95 300,120 300,140 Z M300,140 C320,90 340,90 350,100 C330,115 315,130 300,140 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M298,135 L296,220 L306,220 L302,135 Z" />
+
+    <!-- Refreshing turquoise water seguia / pool -->
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M0,210 Q120,190 220,205 T400,195 L400,240 L0,240 Z" />
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M50,215 Q150,205 250,212 T380,210"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF" />
+</vector>

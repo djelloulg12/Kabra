@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Deep desert sunset -->
+    <path android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240"
+                android:type="linear">
+                <item android:color="#311B92" android:offset="0.0" />
+                <item android:color="#B71C1C" android:offset="0.5" />
+                <item android:color="#FF8F00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Memorial monument / Mujahid museum dome & obelisk symbol -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M190,130 L200,60 L210,130 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,130 C180,105 220,105 220,130 Z" />
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M195,100 A5,5 0 1,0 195,110 A5,5 0 1,0 195,100 Z" />
+
+    <!-- Metlili ancient citadel dunes -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M0,160 Q120,130 220,165 T400,150 L400,240 L0,240 Z" />
+
+    <!-- Ancient Ksar walls of Metlili -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M30,170h50v50h-50z M70,160h60v60h-60z M140,150h50v70h-50z M210,155h55v65h-55z M280,165h60v55h-60z" />
+    <!-- Fort battlement teeth -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M30,165h10v10h-10z M50,165h10v10h-10z M70,155h10v10h-10z M90,155h10v10h-10z M110,155h10v10h-10z M140,145h10v10h-10z M160,145h10v10h-10z M180,145h10v10h-10z" />
+
+    <!-- Golden Sand dunes in foreground -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M0,200 Q150,170 300,210 T400,195 L400,240 L0,240 Z" />
+</vector>
